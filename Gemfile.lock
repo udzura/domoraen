@@ -17,6 +17,7 @@ GEM
       launchy (>= 2.1.2)
       oauth
       twitter (= 4.8.1)
+    coderay (1.1.0)
     daemon-spawn (0.4.2)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
@@ -64,7 +65,8 @@ GEM
     jwt (1.0.0)
     launchy (2.4.2)
       addressable (~> 2.3)
-    mecab (0.98)
+    mecab (0.996)
+    method_source (0.8.2)
     mime-types (2.3)
     mini_portile (0.6.0)
     minitest (5.4.0)
@@ -81,6 +83,10 @@ GEM
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (~> 1.2)
+    pry (0.10.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.5.2)
     rake (10.3.2)
     rdoc (3.12.2)
@@ -124,7 +130,8 @@ DEPENDENCIES
   earthquake
   jeweler (~> 2.0.1)
   json
-  mecab (= 0.98)
+  mecab (= 0.996)
+  pry
   rdoc (~> 3.12)
   rspec (~> 2.8.0)
   simplecov
