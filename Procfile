@@ -1,1 +1,1 @@
-web: ./bin/domoraen-httpd
+web: ./bin/heroku-run.sh
