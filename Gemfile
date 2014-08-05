@@ -12,7 +12,7 @@ group :development do
   gem "jeweler", "~> 2.0.1"
   gem "simplecov", ">= 0"
 
-  gem 'pry'
+  gem "pry"
 end
 
 gem "mecab", "0.996"
@@ -21,4 +21,5 @@ gem "thor"
 gem "earthquake"
 gem "daemon-spawn", :require => "daemon_spawn"
 gem "aws-sdk"
-gem 'json'
+gem "json"
+gem "sinatra"
